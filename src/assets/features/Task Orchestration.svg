@@ -1,0 +1,10 @@
+<svg width="508" height="64" viewBox="0 0 508 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="88" height="64" rx="16" fill="#E6E9EE" fill-opacity="0.8"/>
+<rect x="140" width="88" height="64" rx="16" fill="#E6E9EE" fill-opacity="0.8"/>
+<rect width="88" height="64" rx="16" transform="matrix(-1 0 0 1 508 0)" fill="#B5CCFF"/>
+<rect x="280" width="88" height="64" rx="16" fill="#E6E9EE" fill-opacity="0.8"/>
+<line x1="88" y1="31" x2="140" y2="31" stroke="#E6E9EE" stroke-width="2"/>
+<line x1="228" y1="31" x2="280" y2="31" stroke="#E6E9EE" stroke-width="2"/>
+<line y1="-1" x2="52" y2="-1" transform="matrix(-1 0 0 1 420 32)" stroke="#E6E9EE" stroke-width="2"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M454.25 32C454.25 26.6152 458.615 22.25 464 22.25C469.385 22.25 473.75 26.6152 473.75 32C473.75 37.3848 469.385 41.75 464 41.75C458.615 41.75 454.25 37.3848 454.25 32ZM467.61 30.1859C467.851 29.8489 467.773 29.3805 467.436 29.1397C467.099 28.8989 466.63 28.977 466.39 29.3141L463.154 33.8436L461.53 32.2197C461.237 31.9268 460.763 31.9268 460.47 32.2197C460.177 32.5126 460.177 32.9874 460.47 33.2803L462.72 35.5303C462.876 35.6862 463.092 35.7656 463.312 35.7474C463.532 35.7293 463.732 35.6153 463.86 35.4359L467.61 30.1859Z" fill="#003350"/>
+</svg>

@@ -1,0 +1,112 @@
+{
+  "hero": {
+    "title": "Your Autonomous AI Workforce for Property Operations",
+    "description": "MRFQ automates end-to-end property operations, allowing you to scale your portfolio and maximize asset value without adding headcount.",
+    "bookDemo": "Book a Demo",
+    "registerInterest": "Register your Interest",
+    "trustedBy": "Trusted by Many Facilities Across Saudi Arabia"
+  },
+  "features": {
+    "title": "The Features Behind MRFQ",
+    "autoPilot": {
+      "title": "Auto-Pilot Quality Control",
+      "description": "Smart operational checklists that ensure every cleaning and maintenance task meets your 'Gold Standard,' verified instantly by AI."
+    },
+    "taskOrchestration": {
+      "title": "Task Orchestration",
+      "description": "Seamless Task Management Automated workflows that dispatch requests to the right technician instantly."
+    },
+    "aiFacilityManager": {
+      "title": "Your AI Facility Manager: Sanad",
+      "description": "Operational efficiency and portfolio growth, delivered without additional headcount."
+    },
+    "exploreAll": "Explore All Features",
+    "page": {
+      "title": "The Features Behind MRFQ",
+      "sanad": {
+        "title": "Sanad",
+        "description": "Your AI Facility Manager Your central AI brain that orchestrates operations, analyzes performance data, and makes autonomous decisions to optimize facility health 24/7."
+      },
+      "autoPilot": {
+        "title": "Auto-Pilot Quality Control",
+        "description": "Smart operational checklists that ensure every cleaning and maintenance task meets your 'Gold Standard,' verified instantly by AI."
+      },
+      "taskOrchestration": {
+        "title": "Task Orchestration",
+        "description": "Seamless Task Management Automated workflows that dispatch requests to the right technician instantly (via WhatsApp integration), tracking progress from assignment to closure without manual follow-up."
+      },
+      "snagLists": {
+        "title": "Snag Lists (Handover)",
+        "description": "Digital Snagging & Handover Protect asset value during handovers. Document defects, manage unit inspections, and ensure contractor compliance with precision digital snag lists."
+      },
+      "usersVisitorsFeedback": {
+        "title": "Users & Visitors Feedback",
+        "description": "Tenant Sentiment Analysis Real-time feedback loops that capture tenant and visitor satisfaction, giving you actionable insights to improve experience and retention."
+      }
+    }
+  },
+  "roles": {
+    "title": "One Platform, Built for Every Role",
+    "description": "Tailored experiences for the people who keep properties running."
+  },
+  "footer": {
+    "title1": "It's Time to Do",
+    "title2": "Property Management Different",
+    "description": "Book a demo now and let MRFQ automate your property management.",
+    "bookDemo": "Book a demo",
+    "features": "Features",
+    "contactUs": "Contact Us",
+    "privacyPolicy": "Privacy Policy",
+    "copyright": "Copyright © 2026 MRFQ"
+  },
+  "navbar": {
+    "features": "Features",
+    "contact": "Contact",
+    "logIn": "Log In",
+    "selectLanguage": "Select Language",
+    
+    "english": "English",
+    "arabic": "العربية",
+    "language": {
+      "en": "En",
+      "ar": "Ar",
+      "eng": "Eng"
+    }
+  },
+  "contact": {
+    "title": "Contact Us",
+    "form": {
+      "firstName": "First & Last Name",
+      "firstNamePlaceholder": "i.e. Ahmad Ali",
+      "phone": "Phone Number",
+      "phonePlaceholder": "i.e. +996-234-567-7890",
+      "email": "Email",
+      "emailPlaceholder": "i.e. ahmadali@gmail.com",
+      "subject": "Subject",
+      "subjectPlaceholder": "i.e. I need a help",
+      "message": "Message",
+      "messagePlaceholder": "Type your message",
+      "sendMessage": "Send Message"
+    },
+    "callUs": "Call us",
+    "emailUs": "Email us",
+    "legalEntity": "Legal entity",
+    "legalEntityText": "Commercial Register No. 1009161160, P.O. Box 12251, Riyadh 2609"
+  },
+  "metadata": {
+    "siteName": "MRFQ",
+    "siteDescription": "Your Autonomous AI Workforce for Property Operations. Automate end-to-end property operations and maximize asset value without adding headcount.",
+    "home": {
+      "title": "MRFQ - Autonomous AI Workforce for Property Operations",
+      "description": "MRFQ automates end-to-end property operations, allowing you to scale your portfolio and maximize asset value without adding headcount. Trusted by many facilities across Saudi Arabia."
+    },
+    "features": {
+      "title": "Features - MRFQ | AI-Powered Property Management",
+      "description": "Discover the powerful features behind MRFQ: Auto-Pilot Quality Control, Task Orchestration, Snag Lists, and AI Facility Manager. Transform your property operations."
+    },
+    "contact": {
+      "title": "Contact Us - MRFQ | Get in Touch",
+      "description": "Get in touch with MRFQ. Contact us for property management solutions, book a demo, or learn more about our AI-powered facility management platform."
+    }
+  }
+}
