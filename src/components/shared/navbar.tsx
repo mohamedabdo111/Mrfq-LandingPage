@@ -1,7 +1,7 @@
 "use client";
 
 import Image from "next/image";
-import { ChevronDown, Globe, Check } from "lucide-react";
+import { ChevronDown, Check } from "lucide-react";
 import Logo from "@/assets/Logo.svg";
 import Link from "next/link";
 import { Button } from "../ui/button";
