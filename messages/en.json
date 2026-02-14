@@ -107,6 +107,50 @@
     "contact": {
       "title": "Contact Us - MRFQ | Get in Touch",
       "description": "Get in touch with MRFQ. Contact us for property management solutions, book a demo, or learn more about our AI-powered facility management platform."
+    },
+    "privacy": {
+      "title": "Privacy Policy - MRFQ",
+      "description": "Learn about how MRFQ collects, uses, stores, and protects your information when you use our website, dashboard, and AI-powered services."
+    }
+  },
+  "privacy": {
+    "title": "Privacy Policy",
+    "intro": "At MRFQ, your privacy is taken seriously. This Privacy Policy explains how we collect, use, store, and protect your information when you use our website, dashboard, and AI-powered services.",
+    "sections": {
+      "informationWeCollect": {
+        "title": "Information We Collect",
+        "items": [
+          "Personal details such as name, phone number, and email address.",
+          "Messages and data shared through WhatsApp integration.",
+          "Facility management records, reports, and maintenance requests.",
+          "Usage data related to dashboard interactions and system activity."
+        ]
+      },
+      "whatsappAiProcessing": {
+        "title": "WhatsApp & AI Processing",
+        "description": "MRFQ uses AI agents to process messages received through WhatsApp and synchronize them with your dashboard. This data is processed solely to deliver maintenance services, automate workflows, and improve system efficiency."
+      },
+      "howWeUseYourData": {
+        "title": "How We Use Your Data",
+        "items": [
+          "To operate and improve our facility management services.",
+          "To generate reports, schedules, and insights.",
+          "To communicate with you regarding support or service updates."
+        ]
+      },
+      "dataSecurity": {
+        "title": "Data Security",
+        "description": "We implement industry-standard security measures to protect your data from unauthorized access, alteration, or disclosure. Access to data is strictly limited to authorized personnel."
+      },
+      "yourRights": {
+        "title": "Your Rights",
+        "description": "You have the right to request access, correction, or deletion of your personal data in accordance with applicable data protection laws."
+      },
+      "contactUs": {
+        "title": "Contact Us",
+        "description": "If you have any questions about this Privacy Policy or how your data is handled, please contact us at:",
+        "email": "info@mrfq.sa"
+      }
     }
   }
 }

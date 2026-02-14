@@ -8,7 +8,7 @@ type MetadataParams = {
 
 export async function generateMetadata(
   params: MetadataParams,
-  page: "home" | "features" | "contact" = "home"
+  page: "home" | "features" | "contact" | "privacy" = "home"
 ): Promise<Metadata> {
   const { locale } = params;
   const t = await getTranslations({ locale });
