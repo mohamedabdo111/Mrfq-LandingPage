@@ -1,13 +1,13 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import { Outfit } from "next/font/google";
 import "./globals.css";
 import { NextIntlClientProvider, hasLocale } from "next-intl";
 import { notFound } from "next/navigation";
 import { routing } from '@/i18n/routing';
 import { generateMetadata as genMeta } from '@/lib/metadata';
 
-const inter = Inter({
-  variable: "--font-inter",
+const outfit = Outfit({
+  variable: "--font-outfit",
   subsets: ["latin"],
 });
 
@@ -36,7 +36,7 @@ export default async function RootLayout({
     <html lang={locale} dir={locale === 'ar' ? 'rtl' : 'ltr'}>
 
       <body
-        className={`${inter.variable} antialiased`}
+        className={`${outfit.variable} antialiased`}
       >
         {/* <Navbar /> */}
         <NextIntlClientProvider>

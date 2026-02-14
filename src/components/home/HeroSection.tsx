@@ -5,6 +5,7 @@ import Image from "next/image";
 import { Navbar } from "../shared/navbar";
 import Link from "next/link";
 import { useTranslations } from "next-intl";
+import { BookingDemo } from "../shared/BookingDemo";
 
 
 export const HeroSection = () => {
@@ -24,13 +25,7 @@ export const HeroSection = () => {
                         {t("description")}
                     </p>
                     <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-                        <Link href="/book-a-demo">
-                            <Button
-                                className="bg-[#003350] text-white hover:bg-[#003350]/90 px-8 py-6 rounded-xl font-medium"
-                            >
-                                {t("bookDemo")}
-                            </Button>
-                        </Link>
+                        <BookingDemo />
                         <Button
                             variant="outline"
                             className="border-2 border-[#003350] text-[#003350] hover:bg-[#003350]/5 px-8 py-6 rounded-xl font-medium bg-white"
