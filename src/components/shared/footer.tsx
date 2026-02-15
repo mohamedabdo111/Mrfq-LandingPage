@@ -2,11 +2,15 @@ import Link from "next/link"
 import FooterLogo from "@/assets/footer/footerLogo.svg"
 import Image from "next/image"
 import { BookingDemo } from "./BookingDemo"
-import { useTranslations } from "next-intl"
+import { useLocale, useTranslations } from "next-intl"
 
 export const Footer = () => {
     const t = useTranslations("footer");
-    
+    const locale = useLocale();
+    console.log(locale);
+    const isArabic = locale === "ar";
+    const ArabicURL = "https://foul-iberis-19f.notion.site/a2f05d17733082d4bbbc01d0d3b683f0?pvs=105";
+    const EnglishURL = "https://foul-iberis-19f.notion.site/30805d177330801888bac1d4b4fc66aa";
     return (
         <footer className="footerBg text-white pt-16 pb-8">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -45,20 +49,22 @@ export const Footer = () => {
                             {t("features")}
                         </Link>
                         <Link
-                            href="https://meetings-eu1.hubspot.com/yalrashod"
+                            href="https://outlook.office.com/bookwithme/user/1ccbc085e5644490be03ef89e7c11d72@mrfq.sa/meetingtype/WwLAd6RazkmHD21G58pFJg2?bookingcode=a86deb3b-1168-471a-a6d3-5c7b56047132&anonymous&ismsaljsauthenabled&ep=mlink"
                             target="_blank"
                             className="text-gray-600 hover:text-gray-800 transition-colors font-medium text-sm md:text-base"
                         >
                             {t("bookDemo")}
                         </Link>
                         <Link
-                            href="/contact"
+                            href={isArabic ? ArabicURL : EnglishURL}
+                            target="_blank"
                             className="text-gray-600 hover:text-gray-800 transition-colors font-medium text-sm md:text-base"
                         >
                             {t("contactUs")}
                         </Link>
                         <Link
                             href="/privacy"
+                            
                             className="text-gray-600 hover:text-gray-800 transition-colors font-medium text-sm md:text-base"
                         >
                             {t("privacyPolicy")}

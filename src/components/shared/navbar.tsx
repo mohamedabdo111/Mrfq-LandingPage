@@ -15,6 +15,9 @@ import { useState } from "react";
 export const Navbar = () => {
     const t = useTranslations("navbar");
     const locale = useLocale();
+    const isArabic = locale === "ar";
+    const ArabicURL = "https://foul-iberis-19f.notion.site/a2f05d17733082d4bbbc01d0d3b683f0?pvs=105";
+    const EnglishURL = "https://foul-iberis-19f.notion.site/30805d177330801888bac1d4b4fc66aa";
     const pathname = usePathname();
     const [drawerOpen, setDrawerOpen] = useState(false);
 
@@ -48,13 +51,16 @@ export const Navbar = () => {
                         {/* Navigation Links */}
                         <div className="hidden md:flex items-center space-x-8">
                             <Link
+                                
                                 href="/features"
+                                
                                 className="main-color hover:text-gray-400 transition-colors font-medium"
                             >
                                 {t("features")}
                             </Link>
                             <Link
-                                href="/contact"
+                                href={isArabic ? ArabicURL : EnglishURL}
+                                target="_blank"
                                 className="main-color hover:text-gray-400 transition-colors font-medium"
                             >
                                 {t("contact")}
