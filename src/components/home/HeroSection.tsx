@@ -4,12 +4,16 @@ import TrustedBy from "@/assets/trusted/trustedBy.svg";
 import Image from "next/image";
 import { Navbar } from "../shared/navbar";
 import Link from "next/link";
-import { useTranslations } from "next-intl";
+import { useLocale, useTranslations } from "next-intl";
 import { BookingDemo } from "../shared/BookingDemo";
 
 
 export const HeroSection = () => {
     const t = useTranslations("hero");
+    const locale = useLocale();
+    const isArabic = locale === "ar";
+    const ArabicURL = "https://foul-iberis-19f.notion.site/a2f05d17733082d4bbbc01d0d3b683f0?pvs=105";
+    const EnglishURL = "https://foul-iberis-19f.notion.site/30805d177330801888bac1d4b4fc66aa";
 
     return (
         <section className="heroSectionBg min-h-screen flex flex-col">
@@ -26,12 +30,15 @@ export const HeroSection = () => {
                     </p>
                     <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
                         <BookingDemo />
-                        <Button
-                            variant="outline"
-                            className="border-2 border-[#003350] text-[#003350] hover:bg-[#003350]/5 px-8 py-6 rounded-xl font-medium bg-white"
-                        >
-                            {t("registerInterest")}
-                        </Button>
+                        <Link href={isArabic ? ArabicURL : EnglishURL} target="_blank">
+                            <Button
+                                variant="outline"
+                                className="border-2 border-[#003350] text-[#003350] hover:bg-[#003350]/5 px-8 py-6 rounded-xl font-medium bg-white"
+                            >
+                                {t("registerInterest")}
+                            </Button>
+                        </Link>
+
                     </div>
                 </div>
 
